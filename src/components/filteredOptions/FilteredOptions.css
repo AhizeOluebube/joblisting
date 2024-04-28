@@ -1,0 +1,38 @@
+.option {
+  background-color: var(--light-grayish-cyan-background);
+}
+small {
+  color: var(--dark-grayish-cyan);
+  cursor: pointer;
+}
+small:hover {
+  text-decoration: underline;
+  color: var(--Desaturated-dark-cyan);
+}
+.each:hover {
+  cursor: pointer;
+  background-color: black;
+}
+.each {
+  background-color: var(--Desaturated-dark-cyan);
+}
+
+.image {
+  background-color: var(--Desaturated-dark-cyan);
+  width: 100%;
+}
+.options {
+  top: 75%;
+}
+
+@media (width > 765px) {
+  .options {
+    top: 80%;
+  }
+}
+
+@media (width > 992px) {
+  .options {
+    top: 50%;
+  }
+}

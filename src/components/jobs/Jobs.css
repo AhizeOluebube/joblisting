@@ -1,0 +1,65 @@
+.general {
+  max-width: 1440px;
+}
+ .general div{
+  flex: 1;
+}
+img {
+  top: -35px;
+  width: 70px;
+}
+.company {
+  color: var(--Desaturated-dark-cyan);
+}
+.new {
+  background-color: var(--Desaturated-dark-cyan);
+}
+.roleall p {
+  background-color: var(--light-grayish-cyan-background);
+  color: var(--Desaturated-dark-cyan);
+}
+.role:hover {
+  cursor: pointer;
+  background-color: var(--Desaturated-dark-cyan);
+  color: white;
+}
+.position:hover {
+  cursor: pointer;
+  color: var(--Desaturated-dark-cyan);
+}
+.border1 {
+  border-left: solid 5px var(--Desaturated-dark-cyan);
+}
+.mw-content {
+  max-width: fit-content;
+}
+.jobs {
+  padding-top: 200px;
+  gap: 90px;
+  padding-bottom: 200px;
+}
+.positions {
+  position: absolute;
+}
+
+.time li {
+  color: var(--dark-grayish-cyan);
+}
+.time li:nth-of-type(1) {
+  list-style: none;
+}
+
+@media (width > 365px) {
+  .jobs {
+    padding-top: 150px;
+  }
+}
+@media (width> 992px) {
+  .positions {
+    position: relative;
+    top: unset;
+    right: unset;
+    left: unset;
+    bottom: unset;
+  }
+}
